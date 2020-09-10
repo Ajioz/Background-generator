@@ -16,13 +16,60 @@
 <body>
     <div id="gradient">
 	    <h1>Cool Background Generator</h1>
-	    <h6><cite><strong>Design With Love: By Ajiozi</strong></cite></h6>
+    <div class="chip red">
 	    <input class ="color1" type="color" name="color1" value="#00ff00">
 	    <input class="color2" type="color" name="color2" value="#ff0000">
 	    <h2>Current CSS Background:</h2>
 	    <h3></h3>
 	</div>
 
+    <br><hr><br>
+    
+    <!--FORMS--> 
+          <br><br>  <br><br>   <br><hr><br>
+    <div class="container">
+        <h6><cite><strong>Design With Love By:</strong></cite></h6>
+        <!--CHIPS--> 
+        <span class="chip cyan white-text ligten-3">
+            <img src="sunny.jpg" alt="Contact Person">
+            Ajioz
+        </span>
+        <h4>Contact Us</h4>
+        <br><br>
+            <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input  id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                    <span class="helper-text" data-error="wrong" data-success="right">Validator</span>    
+                </div>
+              </div>
+             
+              <div class="input-field">
+                  <textarea type="text" id="textarea" class="materialize-textarea"></textarea>
+                  <label class="active" for="textarea">Message</label>
+              </div>
+                <a class="waves-effect waves-light btn modal-trigger" href="https://www.ajiozi.com" target="_blank">Submit Here</a>
+            </form>
+          </div>
+        </div>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
  
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
